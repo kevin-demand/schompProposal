@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 width=device-width, height=device-height,-->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery.mobile.no-theme-1.4.5.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+<title>Schomp Proposal Home</title>
+</head>
+    <body>
+      <div class="device-container">
+        <section id="upper-nav" data-role="header" data-position="fixed">
+          <nav class="navbar navbar-defualt">
+            <div class="nav-container">
+              <ul class="nav navbar-nav">
+                <li><a class="navbar-logo" href="#home"><img src="img/bmw-logo.png"></a></li>
+                <li><a href="index.html" data-transition="slide">HOME</a></li>
+                <li><a href="#market" data-transition="slide">MARKET</a></li>
+                <li><a href="location.html" data-transition="slide">LOCATION</a></li>
+                <li><a href="personnel.hmtl" data-transition="slide">PERSONNEL</a></li>
+                <li><a href="marketing.html" data-transition="slide">MARKETING</a></li>
+                <li><a href="proforma.html" data-transition="slide">PRO FOrmA</a></li>
+                <li><a href="whyus.html" data-transition="slide">WHY US?</a></li>
+              </ul>
+            </div><!-- /.nav-container -->
+          </nav>
+        </section>
+        <div class="sub-container">   
+          <section id="market" data-role="page">
+ 
+            <nav class="sub-nav navbar navbar-defualt">
+              <div class="container">
+                <ul class="nav navbar-nav nav-tabs" role="tablist">
+                  <li role="presentation" class="active"><a href="#austin-intro" role="tab" data-toggle="tab">Austin Intro</a></li>
+                  <li role="presentation"><a href="#landscape" role="tab" data-toggle="tab">Competivtive Landscape</a></li>
+                  <li role="presentation"><a href="#market-outlook"  role="tab" data-toggle="tab">Market Outlook</a></li>
+                  <li role="presentation"><a href="#austin-stats" role="tab" data-toggle="tab">Austin Statistics</a></li>
+                </ul>
+              </div>
+            </nav>
+            
+<!-- ********** Austin INTRO TAB  **********  -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="austin-intro">
+                <div class="content-body">
+                  <div class="container">
+                    <div class="col-md-6">  
+                      <h3>The Austin Market: Growth, Growth and more Growth.</h3>
+                      <p>Austin. It’s Texas’s token ‘weird’ city, the most diverse city in Texas, home to a thriving economy and soon to be home to a second world-class BMW Dealership. </p>
+                      <p>There was a time when Austin was known primarily as the capital of Texas and home of The University of Texas at Austin. Those sectors remain a healthy and vital part of the Austin landscape – but over the last two decades the community has developed a very healthy balance of employment across a diverse range of industries. Over the past decade Austin has been an incubator for hundreds of new tech startups as well as home to long-established tech leaders. Austin knows tech. Apple, IBM, Dell, AT&T, Oracle, HP, Cisco, Intel and Samsung each employ more that 5,000 workers from Austin’s highly educated workforce.</p>
+                      <p>Austin has received a mountain of accolades of late and earned a reputation as one of the best places to live in the nation. You don’t need to take our word for it. It’s the #2 city in the country for job growth<sup>1</sup>,the fastest growing city in the nation<sup>2</sup>, and a recent study ranked Austin as the #2 destination for military retirees.<sup>3</sup> </p>
+                      <p class="disclaimer">1 2014 Forbes Magazine<br>
+                                            2 2013 U.S. Chamber of Commerce<br>
+                                             3 Study by USAA & the U.S. Chamber of Commerce</p>
+                    </div><!-- /end left col --> 
+                    <div class="col-md-6">
+                      <img src="img/austin-historic-district.png" alt="Austin Downtown District" width="470">
+                      <img id="chart-pop" src="img/chart-population-growth.png" alt="Austin Population Growth" width="520">
+                    </div>
+                  </div>
+                </div> 
+              </div><!--end tab 1-->
+              
+<!-- ********** landscape **********  -->
+              <div role="tabpanel" class="tab-pane" id="landscape">
+                <div class="content-body">
+                  <img id="markSkyline" src="img/landscape-skyline.png" width="1012">
+                  <div class="container">
+                    <div class="col-md-6">  
+                      <h3>COMPETITION BREEDS A HEALTHY, ECONIMIC ENVIRONMENT.</h3>
+                      <p>We thoroughly understand the competitive landscape in Austin. </p>
+                      <p>We commissioned our own Urban Science Market study and have done our homework. We’ve identified tremendous opportunities and are poised to pick a fight with the competition. We know where we need to be located, not based on today’s market but based on what the landscape of Austin will look like 5 and even 10 years from today.</p>
+                      <p>Lexus has long led the market and is in the process of adding a second franchise to the market. Mercedes-Benz and Audi also have two points. Those days will come to an end in 2016 and we will play the biggest part in it.</p>
+                      <a data-toggle="modal" href="#maphhi"><img id="market-study-map" src="img/map-austin-market-study-thumb.png" alt="MAP" width="450"></a>
+                      <div class="modal fade" id="maphhi" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-body">
+                            <a type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></a>
+                             <img src="img/map-2014-austin-hhi.png" alt="MAP" height="650">
+                             <a type="button" class="btn btn-lg btn-primary" data-dismiss="modal">Close</a>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div><!-- /end left col --> 
+                    <div class="col-md-6">
+                      <div class="market-findings">
+                        <h3>Based on our market findings, BMW of South Austin is poised to do extremely well given the trend not just nationally, but in Austin and points south as well. Our quick findings:</h3>
+                        <ol>
+                          <li>Based on the performance of the 3 Series and 5 Series Segments, BMW of South Austin is positioned well to retake significant market share in the area.</li>
+                          <li>Based on the strength or EV sales and the Plug In EVerywhere™ campaign promoted by the City of Austin, viewed alongside the breadth of the technology sector in Austin, we feel there is significant growth opportunity for the BMW i3. </li>
+                          <li>Conquest of aspirational brands in Austin (Honda, Toyota, Nissan, VW and Subaru) holds significant potential. In Austin, these brands outperform the national benchmarks. These aspirational consumers are key to growth of BMW marketshare and the luxury segment as a whole. </li>
+                          <li>HHI growth is projected to increase significantly on the Southwestern side of Austin. Our location in Hayes County (3rd Fastest-growing county in the country) is uniquely positioned to take advantage of this growth.</li>
+                          <li>Cities south of Austin; Buda, Kyle, San Marcos are among some of the fastest-growing cities in Texas. Our location was selected to offer consumers in those markets a more convenient option vs. Audi, Mercedes-Benz and Lexus.</li>
+                        </ol> 
+                      </div>
+                    </div>
+                  </div><!-- /container -->
+                </div> 
+              </div><!--/tab 2-->
+              
+<!-- ********** market-outlook **********    -->
+              <div role="tabpanel" class="tab-pane" id="market-outlook">
+                <div class="content-body">
+                  <div class="container">
+                    <div class="col-md-7 outlook-text">
+                      <h3>In ever facet of the city, growth is all we see.</h3>
+                      <p>Changes are expected in the population growth rate that make Austin more promising than ever. </p>
+                      <p>The long range economic forecast for the Austin - Round Rock - San Marcos MSA shows nothing but growth. Not middle-of-the-pack growth, Exponential Growth. The Austin MSA has grown nearly 40% in the past decade and there’s no sign of it slowing down. When you look towards South Austin and the I-35 corridor, the growth is even more pronounced. The suburbanization of this stretch of I-15 between San Antonio and Austin will continue to intensify in next decade. Just 20 miles south of our proposed location, San Marcos, was the fastest growing city in the country in 2013.</p>
+                      <p>“Through 2020, Austin Texas, will be among the three fastest growing large metros in the country<sup>1</sup>. The education/health services and information and professional business services sectors will be some of the most critical sources of economic growth across these metros.”</p>
+                      <p class="disclaimer">1 The United States Conference of Mayors & The Council on Metro Economies prepared by IHS Global Insight.</p>
+                      <img width="450" src="img/chart-outlook-pop-projections.png" alt="Population Projections">
+                    </div>
+                    <div class="col-md-5 outlook-img">
+                      <img width="470" src="img/outlook-river.png" alt="Austin River">
+                    </div>
+                  </div>
+                </div> 
+              </div><!--/tab 3-->
+              
+<!-- **********  Tab 4 austin-stats **********  -->
+              
+              <div role="tabpanel" class="tab-pane" id="austin-stats">
+                <div class="content-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-8 banner-row">
+                        <img width="600" src="img/stats-banner.png" alt="Austin Stats Banner">
+                      </div>
+                      <div class="col-md-4 banner-callout">
+                        <h5>2013 Austin Statistics:</h5>
+                        <p><span class="stat-title">Population:</span> 885,400</p>
+                        <p><span class="stat-title">Median Age:</span> 31.1 vs. 37.2 National</p>
+                        <p><span class="stat-title">Education:</span> 54.2% hold a 4 year college degree or better</p> 
+                        <br>
+                        <h5 class="push-up">Austin MSA Statistics: </h5>
+                        <p><span class="stat-title">Population:</span> 1,883,051</p>
+                        <p><span class="stat-title">Median Age:</span> 33.6 vs. 37.2 National</p>
+                        <p><span class="stat-title">Median HHI:</span> $61,750 </p>
+                        <p><span class="stat-title">Unemployment:</span> 4.1%</p> 
+                        <span class="small-text">(Austin, Hays, Williamson, Travis, & Caldwell Counties)</span>
+                      </div>  
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12 description">
+                        <p>Bursting with culture and vibrancy, Austin truly is a unique place. Home to the University of Texas at Austin and state government offices, Austin is also known as the "Live Music Capital of the World". Festivals like South by Southwest and Austin City Limits bring music lovers, film watchers, and techies from around the world. Racing Fans also look forward to October when Austinites trade their requisite slow pace for soaring speed at the Formula 1 United States Grand Prix™.</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12 text-center">
+                        <img class="" width="760" src="img/stats-graphic.png" alt="Austin Growth Stats">
+                      </div>
+                    </div><!-- /row -->
+                  </div><!-- /container (tab-4) -->
+                </div> 
+              </div><!--/tab 4 section-->
+            </div><!-- tab content -->
+          </section>
+        </div><!-- /sub-container -->
+
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.1.3.min.js"><\/script>')</script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery.mobile-1.4.5.min.js"></script>
+        
+        
+        <script src="js/vendor/main.js"></script> <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
+

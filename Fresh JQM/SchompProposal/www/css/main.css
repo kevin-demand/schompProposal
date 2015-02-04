@@ -1,0 +1,529 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+#home, #market, #location, #personal, #marketing { min-height: 100px !important;}
+
+/* ==============           FONTS             ===================== */ 
+@font-face {
+  font-family: 'bmwRegular';
+  src: url(../fonts/BMWTypeGlobalPro-Regular.ttf);
+}
+@font-face {
+  font-family: 'bmwLight';
+  src: url(../fonts/BMWTypeGlobalPro-Light.ttf);
+}
+@font-face {
+  font-family: 'bmwBold';
+  src: url(../fonts/BMWTypeGlobalPro-Bold.ttf);
+}
+.bold{ font-weight: 500;}
+.light{ font-family:'bmwLight';}
+body {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif /*'bmwRegular'*/;
+}
+
+p, li {
+  font-weight:300;
+  word-spacing: .6px;
+  letter-spacing: .45px;
+}
+
+.device-container {
+  width: 1024px;
+  height: 768px; 
+  background: #ffffff url("../img/bg-bmw.png") no-repeat left top;
+  background-size: 1024px 768px;
+  overflow:hidden;
+  position:relative;
+}
+a:focus {
+outline: none;
+}
+
+.ui-mobile-viewport, div.ui-mobile-viewport  {
+  overflow: hidden;
+}
+.ui-mobile .ui-page-active {
+  overflow-x: visible; 
+}
+/* ==========================================================================
+   Upper Nav
+   ========================================================================== */
+
+#upper-nav .navbar-logo img {width: 137px; }
+#upper-nav {
+  background: #fff; 
+  border-top: #939598 solid 20px;
+}
+#upper-nav .nav-container { margin-left: -2px;}
+#upper-nav .nav-container ul { margin-top: -2px;}
+#upper-nav  li  a {
+  color: #939598;
+  font-size: 17px;
+  border: #939598 solid 1px;
+}
+#upper-nav .navbar-nav > li > a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 17px;
+    padding-right: 17px;
+    text-transform:uppercase;
+}
+#upper-nav .nav > li > a:hover {
+  color: #939598;
+  font-size: 17px;
+}
+#upper-nav .navbar-nav > li a.navbar-logo {  
+    padding-top: 15px;
+    padding-bottom: 18px;
+}
+
+/* ==========================================================================
+   Sub Nav & sub page container
+   ========================================================================== */
+ .sub-container {
+  position:absolute;
+  background: rgba(255, 255, 255, .8); 
+  margin: -22px 0 10px -7px;
+  padding-bottom: 10px; 
+  width: 1011px;
+  height: 650px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  box-shadow: 1px 2px 2px 0px rgba(24, 24, 24, 0.39);
+}
+.sub-nav {
+  padding-top: 9px;
+  padding-bottom: 0px;
+  background: #939598;
+  box-shadow: 1px 2px 2px 0px rgba(24, 24, 24, 0.25); 
+  border-radius: 0px;
+  border-bottom: 1px solid #ddd;
+}
+.sub-nav .navbar-nav {
+  padding-left: 70px;
+  margin-bottom: -1px;
+}
+nav.sub-nav.navbar {
+  min-height: 25px !important;
+}
+.sub-nav li  a {
+  color: #000;
+  font-size: 15px;
+  text-transform:uppercase;
+}
+.sub-nav .navbar-nav>li>a {
+ padding-top: 10px;
+ padding-bottom: 10px; 
+}
+.sub-nav li.active a {
+  color: #e1e1e1;
+  font-size: 15px;
+}
+.sub-nav  li  a:hover, .sub-nav .nav>li>a:focus, .sub-nav .nav-tabs > li.active > a {
+  color: #fff;
+  font-size: 15px;
+  background-color: #b1b2b3 !important;
+}
+.sub-nav #nav-img {
+  position:relative;
+  margin: -5px auto 0;  
+}
+.sub-nav #nav-img img {
+  width: 69px;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.sub-nav #nav-img img.top:hover {
+  opacity:0;
+  background-color: transparent !important;
+}
+
+
+
+/* ==========================================================================
+   Home Page
+   ========================================================================== */
+   
+#home {
+  padding:0;
+  margin: 0 auto;
+}
+   
+/* ==============    Tab 1       Welcome             ===================== */    
+
+#welcome .content-body img {
+  margin: -25px 0 0;
+}
+#welcome .content-body .title {
+  width: 397px;
+  margin-top: -10px;
+}
+#welcome .content-body h3{
+  color: #939598;
+  text-transform: uppercase;
+  font-weight:bold;
+  font-size: 33px;
+  line-height: 33px;
+  border-bottom: 2px solid #000;
+  padding-bottom: 3px;
+}
+#welcome .content-body h4{
+  letter-spacing: 0.65px;
+  color: #000;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 22px;
+  margin-top: -2px;
+}
+#welcome .tab-body {
+  margin: 20px auto 0px;
+  font-weight:300;
+  word-spacing: .6px;
+  letter-spacing: .45px;
+  max-height: 235px;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+   column-count: 2;
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+   column-gap: 40px;
+}
+
+
+/* ==============    Tab 2       Culture             ===================== */  
+
+#culture .content-body{
+  background: url(../img/culture-bg.png) left bottom no-repeat;
+  background-size: 1012px; 
+  height: 578px;
+}
+#culture  .container{
+  padding-right: 140px;
+  padding-left: 140px;
+}
+
+
+/* ==============    Tab 3       Core Values             ===================== */
+
+#values .content-body .call-out{
+  background: url(../img/core-values-bg.png) top left no-repeat; 
+  background-size: 938px; 
+  height: 200px;
+  color:#fff;
+}
+
+#values .content-body .call-out p{
+  width: 405px;
+  padding: 20px;
+  margin-bottom: -20px;
+}
+
+#values .content-body .mission{
+  margin-top: 40px;
+  width:940px;
+}
+#values .content-body .mission blockquote{
+  border-left: 5px solid #939598;
+}
+#values .content-body .mission blockquote span { font-size:28px;}
+#values .content-body .core-values { margin-top:40px;}
+#values .content-body .core-values-body {
+  max-height: 235px;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+}
+#values .content-body .core-values h3 {
+  margin-bottom: 15px;
+}
+
+/* ==============    Tab 4      Schomp ONE            ===================== */
+
+
+#oneprice .content-body .container .one-video {
+  width: 970px;
+  display: inline-block;
+}
+#oneprice .content-body .container .one-nav{
+  margin: 10px 0px 27px 97px;
+}
+#oneprice .content-body .container .one-nav h4 {
+ margin-bottom: 28px; 
+}
+#oneprice .content-body .container .one-nav .btn-group span {
+ padding-left: 20px; 
+}
+#oneprice a.btn {
+  text-decoration: underline;
+}
+
+
+/* ==============    Tab 4 ****** PANEL 1      Schomp ONE            ===================== */
+
+
+#home .ui-panel  {
+    width: 35%;
+    background: #ddd; 
+    z-index:9999;
+    height: 650px;
+    overflow: hidden;
+   
+  /*   min-height: 0%;
+    max-height: none;
+    border-width: 0px;
+    position: absolute;
+    display: block;
+    top: 0px;
+  */
+}
+.ui-panel-dismiss.ui-panel-dismiss-position-left.ui-panel-dismiss-display-overlay.ui-panel-dismiss-open{
+   height:  650px !important;
+   background-color:rgba(7,7,7, 0.60)
+}
+#home .panel-x a {
+  font-size: 24px;
+  color:#2F2F2F;
+}
+#home .panel-body { 
+  margin-top: -10px; 
+}
+#home .panel-body h3{
+  margin: 0 auto 15px; 
+}
+#home .panel-body ul li {
+  padding-top: 5px;
+  padding-bottom: 5px; 
+}
+
+
+/* ==============    Tab 5     Leadership         ===================== */
+
+
+
+
+/* ==============    Tab 6    Schomp History        CAROUSEL STYLES    ===================== */
+
+
+#history .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  display: block;
+  max-height: 560px;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 100px;
+} 
+#history .carousel-control.right {
+    right: 0px;
+    left: auto;
+    background-image: linear-gradient(to right, transparent 0px, rgba(0, 0, 0, 0.15) 100%);
+    background-repeat: repeat-x;
+}
+#history .carousel-control.left{
+    left: 0px;
+    left: auto;
+    background-image: linear-gradient(to left, transparent 0px, rgba(0, 0, 0, 0.2) 100%);
+    background-repeat: repeat-x;
+}
+#history .carousel-inner {
+    border: 1px solid #939598;
+}
+.carousel-caption {
+ padding-bottom: 0px; 
+ background-color:transparent;
+ bottom: 5px;
+}
+.carousel-caption h1 {
+  color: #AAAAAA;
+  font-size: 28px;
+   background-color:transparent;
+}
+.carousel-caption p {
+ color: #252525; 
+ font-size: 18px; 
+  background-color:transparent;
+  width: 800px;
+ margin-left: -115px;
+}
+.carousel-control img{
+  width: 50px;
+  margin-top: 200px;
+}
+
+
+
+/* ==========================================================================
+   Market Page
+   ========================================================================== */
+
+/* ==============  TAB 1    Austin INTRO                ===================== */
+
+
+#austin-intro h3 {
+ font-size: 17px; 
+}
+p.disclaimer {
+  font-size: 10px;
+  font-style:italic;
+  margin-top: 20px;
+}
+#austin-intro img#chart-pop {
+ padding-top: 10px; 
+}
+
+/* ==============  TAB 2    Schomp Competititve landscape             ===================== */
+
+#landscape #markSkyline {
+  margin-top: -20px; 
+}
+#landscape h3 {
+  font-size: 14px;
+} 
+#landscape p {
+  font-weight:300;
+  word-spacing: .6px;
+  letter-spacing: .45px;
+  font-size:13px;
+}
+#landscape #market-study-map {
+  margin-top: 8px; 
+}
+#landscape li {
+  font-weight:300;
+  word-spacing: .6px;
+  letter-spacing: .45px;
+  font-size:13px;
+}
+.modal-dialog {
+  width: 980px; 
+  height: 726px;
+  margin: 20px auto;
+}
+.modal-body {
+    position: relative;
+    padding: 15px;
+    width: auto;
+    height: 720px;
+}
+.modal-body .btn {
+  margin-top: -30px; 
+}
+.modal-backdrop {
+  height: 769px !important;
+}
+#maphhi .modal-body img {
+  padding-left: 27px;
+  padding-bottom: 5px;
+}
+#maphhi .modal-body .close {
+  font-size: 36px;
+  opacity: 0.9;  
+}
+.modal-body .btn {
+    margin-top: -69px;
+    margin-left: 12px;
+}
+.market-findings {
+  margin-left:10px;
+  padding-left: 20px;
+  border-left: 1px solid #939598; 
+}
+
+
+/* ==============  TAB 3    Market Outlook             ===================== */
+
+#market-outlook h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+} 
+#market-outlook {
+  font-size: 13px;
+}
+#market-outlook .outlook-text{
+  margin-top: -20px; 
+}
+#market-outlook .outlook-img {
+  padding-left:0px;
+ margin-top: -20px;
+ border-left: #000 solid 1px;
+}
+
+
+/* ==============  TAB 4   AUSTIN STATISTICS         ===================== */
+#austin-stats .banner-callout {
+  color: #fff;
+  background:#939598;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 11px;
+  font-size: 12px;
+}
+#austin-stats .banner-callout h5 {
+  font-size: 15px; 
+}
+.stat-title {
+  font-weight: 500;
+  font-size: 13px;
+}
+span.small-text{
+ font-size: 9px; 
+}
+.push-up{
+ margin-top: -10px; 
+}
+
+
+/* ==========================================================================
+   Location Page
+   ========================================================================== */
+   
+/* ==============  TAB 1   Overview        ===================== */
+
+#overview .content-body {
+  background-image: url("../img/overview-bg.png");
+  background-size: 1024px auto;
+  height: 589px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-top: -10px;
+}
+#overview .content-body .sub-header {
+  font-size: 20px;
+  font-style: italic;
+  margin-top: -10px;   
+}
+
+   
+   
+/* ==============  TAB 2   Site       ===================== */
+   
+   
+/* ==============  TAB 3   Specs       ===================== */ 
+   
+   
+/* ==============  TAB 4   Faciltiy        ===================== */ 
+  
+   
+/* ==============  TAB 5   Green        ===================== */ 
+
+.green {
+ color:#258306;  
+}
+.push-down{
+ margin-top: 20px; 
+}
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   

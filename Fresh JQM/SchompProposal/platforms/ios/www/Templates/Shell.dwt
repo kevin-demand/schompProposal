@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 width=device-width, height=device-height,-->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery.mobile.no-theme-1.4.5.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+<title>Schomp Proposal Home</title>
+</head>
+    <body>
+      <div class="device-container">
+        <section id="upper-nav" data-role="header" data-position="fixed">
+          <nav class="navbar navbar-defualt">
+            <div class="nav-container">
+              <ul class="nav navbar-nav">
+                <li><a class="navbar-logo" href="#"><img src="img/bmw-logo.png"></a></li>
+                <li><a href="index.html" data-transition="slide">HOME</a></li>
+                <li><a href="market.html" data-transition="slide">MARKET</a></li>
+                <li><a href="location.html">LOCATION</a></li>
+                <li><a href="personnel.hmtl">PERSONNEL</a></li>
+                <li><a href="marketing.html">MARKETING</a></li>
+                <li><a href="proforma.html">PRO FOrmA</a></li>
+                <li><a href="whyus.html">WHY US?</a></li>
+              </ul>
+            </div><!-- /.nav-container -->
+          </nav>
+        </section>        
+        <!-- TemplateBeginEditable name="Section- Pages " -->
+         </div><!-- end device-container -->
+<!-- TemplateEndEditable -->
+     
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.1.3.min.js"><\/script>')</script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery.mobile-1.4.5.min.js"></script>
+        <script src="js/vendor/main.js"></script>
+        <!-- TemplateBeginEditable name="Scripts" -->
+        
+<!-- TemplateEndEditable -->
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
+
